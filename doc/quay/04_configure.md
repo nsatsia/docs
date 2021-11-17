@@ -1,3 +1,5 @@
+# NOTE: This step is not needed for internal OCS/ODF, only for external RGW/Ceph
+
 ## Get the Quay config editor URL
 ```bash
 oc get route -n openshift-operators | egrep quay-config-editor | awk '{print $2}'
